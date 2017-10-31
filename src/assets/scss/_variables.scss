@@ -1,0 +1,38 @@
+/* prefix */
+
+$pre: "qf-"; //
+
+/* Colors */
+
+$primary: #ed8b41;
+$success: #19be6b;
+$warning: #ff9900;
+$danger: #ed3f14;
+$body: #f5f5f5;
+$mask: rgba(0, 0, 0, 0.5);
+$line: #ddd;
+$text-default: #333;
+$text-light: #666;
+$text-lighten: #999; //
+
+/* Font */
+
+$global-line-height: 1.5;
+$global-font-size: 16px;
+$font-size-xxs: $global-font-size - 6; // 10px
+$font-size-xs: $global-font-size - 4; // 12px
+$font-size-sm: $global-font-size - 2; // 14px
+$font-size-default: $global-font-size; // 16px
+$font-size-lg: $global-font-size+2; // 18px
+$font-size-xl: $global-font-size+8; // 24px
+$font-size-xxl: $global-font-size * 2; // 32px
+
+/* Spacing */
+
+$global-spacing: 10px;
+$spacing-min: $global-spacing - 9; // 1px
+$spacing-sm: $global-spacing - 5; // 5px
+$spacing-default: $global-spacing; // 10px
+$spacing-lg: $global-spacing+5; // 15px
+$spacing-xl: $global-spacing+10; // 20px
+$spacing-xxl: $global-spacing+30; // 40px
