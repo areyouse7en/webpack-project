@@ -15,13 +15,13 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, '../static'),
-    filename: 'dll.[hash].[name].js',
-    library: '[name]'
+    filename: 'dll.[name]_[hash:6].js',
+    library: '[name]_[hash:6]'
   },
   plugins: [
     new webpack.DllPlugin({
       path: path.join(__dirname, '../', '[name]-manifest.json'),
-      name: '[name]'
+      name: '[name]_[hash:6]'
     }),
     // 把带hash的dll插入到html中
     new AssetsPlugin({
