@@ -4,6 +4,7 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-config/index.js
 .vscode/launch.json
 static/dll.*
+vendor-manifest.json
+bundle-config.json

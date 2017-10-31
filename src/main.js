@@ -6,7 +6,6 @@ Vue.config.productionTip = false
 /*****插件*****/
 // http请求
 import axios from 'axios'
-import store2 from 'store2'
 import httpPlugin from 'qf-vue-axios'
 const httpOpts = {
   baseURL: '/api',
@@ -48,6 +47,5 @@ import App from './App'
 import '@/assets/scss/app.scss'
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount('#app')
