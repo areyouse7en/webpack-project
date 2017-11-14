@@ -1,19 +1,22 @@
 /* prefix */
 
-$pre: "qf-"; //
+$pre: "qf-";
 
 /* Colors */
 
-$primary: #ed8b41;
+$primary: #2d8cf0;
+$primary-light:#5cadff;
+$primary-dark:#2b85e4;
 $success: #19be6b;
 $warning: #ff9900;
 $danger: #ed3f14;
-$body: #f5f5f5;
-$mask: rgba(0, 0, 0, 0.5);
-$line: #ddd;
-$text-default: #333;
-$text-light: #666;
-$text-lighten: #999; //
+$disabled:#bbbec4;
+$body: #f8f8f9;
+$mask: rgba(#383838, 0.5);
+$border: #dddee1;
+$text-default: #495060;
+$text-light: #80848f;
+$text-dark: #1c2438;
 
 /* Font */
 

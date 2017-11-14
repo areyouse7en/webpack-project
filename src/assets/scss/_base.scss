@@ -64,18 +64,6 @@ body {
   color: $danger;
 }
 
-.#{$pre}text-plain {
-  color: $text-default;
-}
-
-.#{$pre}text-light {
-  color: $text-light;
-}
-
-.#{$pre}text-lighten {
-  color: $text-lighten;
-}
-
 
 /* Text Align */
 
@@ -106,6 +94,14 @@ right {
 
 .#{$pre}cf:after {
   clear: both;
+}
+
+.#{$pre}il {
+  display: inline;
+}
+
+.#{$pre}ilk {
+  display: inline-block;
 }
 
 

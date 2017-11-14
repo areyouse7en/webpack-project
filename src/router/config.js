@@ -1,28 +1,14 @@
-// 登录
-const Login = r => require(['@/components/login/index.vue'], r)
-// 主页面
-const Index = r => require(['@/components/index.vue'], r)
+import homeRouter from '@/components/home'
+import loginRouter from '@/components/login'
+import demoRouter from '@/components/demo'
 
-// 路由设置
+export const appRouter = [demoRouter]
+
 export default {
-  mode: 'history',
+  // mode: 'history',
   routes: [
-    // 登录
-    {
-      path: '/login',
-      name: 'Login',
-      component: Login,
-      meta: {
-        requiresAuth: false
-      }
-    },
-    // 首页
-    {
-      path: '/',
-      component: Index,
-      meta: {
-        requiresAuth: true
-      }
-    }
+    loginRouter,
+    homeRouter,
+    ...appRouter
   ]
 }

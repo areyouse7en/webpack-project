@@ -1,8 +1,5 @@
 @import "base";
-
-/*布局*/
-
-#app {
-  position: relative;
-  text-align: center;
+html,
+body {
+  min-height: 100%;
 }

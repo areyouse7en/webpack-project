@@ -5,7 +5,7 @@
     }],
     "stage-2"
   ],
-  "plugins": ["transform-runtime", "transform-vue-jsx"],
+  "plugins": ["transform-runtime", "transform-vue-jsx", "syntax-dynamic-import"],
   "env": {
     "test": {
       "presets": ["env", "stage-2"],
