@@ -1,14 +1,9 @@
-import homeRouter from '@/components/home'
-import loginRouter from '@/components/login'
-import demoRouter from '@/components/demo'
-
-export const appRouter = [demoRouter]
+import Home from '@/components/home'
 
 export default {
-  // mode: 'history',
-  routes: [
-    loginRouter,
-    homeRouter,
-    ...appRouter
-  ]
+  mode: 'history',
+  routes: [{
+    path: '',
+    component: Home
+  }]
 }
