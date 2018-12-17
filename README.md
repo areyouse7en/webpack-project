@@ -1,19 +1,18 @@
-# webpack 常用配置
+# webpack DLL打包配置
+https://segmentfault.com/a/1190000011795931?_ea=4898571
 
 ## 构建步骤
 
 ``` bash
 # 安装依赖
-cnpm i 
+yarn
 
 # 单独打包依赖库
-npm run dll
+yarn dll
 
 # 运行开发环境
-npm start
-# 或
-npm run dev
+yarn start
 
 # 生产打包查看报告
-npm run build --report
+yarn build --report
 ```

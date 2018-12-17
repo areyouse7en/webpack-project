@@ -5,7 +5,7 @@
   "author": "se7en <373084212@qq.com>",
   "private": true,
   "scripts": {
-    "dll": "webpack -p --progress --config build/webpack.dll.conf.js",
+    "dll": "node build/dll.js",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js"
